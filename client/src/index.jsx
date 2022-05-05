@@ -1,11 +1,13 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import { render } from 'react-dom';
+import Overview from './components/overview.jsx';
 const axios = require('axios');
 
 
 class App extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       info: ""
     };
@@ -14,7 +16,8 @@ class App extends React.Component {
   render() {
     return(
       <div className="app">
-        <title>WolfTracker</title>
+        <h1>WolfTracker</h1>
+        <Overview />
       </div>
     )
   }

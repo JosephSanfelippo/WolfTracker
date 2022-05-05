@@ -1,0 +1,32 @@
+body {
+  align-content: center;
+  background: black;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: Arial;
+  color: yellow;
+  align-content: center;
+}
+
+h2 {
+  font-family: Calibri;
+  font-size: 60px;
+  color: silver;
+  align-content: center;
+}
+
+h3 {
+  font-family: Calibri;
+  font-size: 50px;
+  color: silver;
+  align-content: center;
+}
+
+.playerName .score .team {
+  font-family: Calibri;
+  font-size:40px;
+  color: silver;
+}
+
